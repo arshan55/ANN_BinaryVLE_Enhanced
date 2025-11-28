@@ -117,7 +117,7 @@ def main():
     st.sidebar.header("Model Configuration")
     
     # Load model results
-    results_dir =st.sidebar.text("Results Directory", value="outputs")
+    results_dir =st.sidebar.text_input("Results Directory", value="outputs")
     results, azeotrope_df = load_model_results(results_dir)
     
     if results is None:
