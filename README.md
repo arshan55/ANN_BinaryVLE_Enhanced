@@ -65,6 +65,9 @@ python -m streamlit run streamlit_app.py
 
 Open the printed localhost URL in your browser (usually http://localhost:8501).
 
+web link:
+https://annbinaryvle.streamlit.app/
+
 ---
 
 ## Reproduce the provided results
