@@ -1,0 +1,40 @@
+{
+  "dataset_info": {
+    "n_total": 603,
+    "n_train": 421,
+    "n_val": 91,
+    "n_test": 91,
+    "temp_range": [
+      49.76500000000004,
+      69.95400000000001
+    ],
+    "pressure_range": [
+      81.06,
+      121.59
+    ]
+  },
+  "model_info": {
+    "architecture": "Physics-informed ensemble",
+    "n_models": 5,
+    "epochs": 500,
+    "system": "acetone-chloroform"
+  },
+  "performance": {
+    "ann_mae": 0.002847032816217469,
+    "ann_rmse": 0.0035950076047714637,
+    "baseline_mae": 0.040172768649039486,
+    "baseline_rmse": 0.04409064258272495,
+    "improvement_mae": 92.91302812337895,
+    "improvement_rmse": 91.84632521962831
+  },
+  "statistical_tests": {
+    "t_statistic": -10.509235271637309,
+    "p_value": 2.514742484510133e-17,
+    "significant": true,
+    "cohens_d": 0.21601884810967031
+  },
+  "azeotrope_detection": {
+    "n_points_detected": 200,
+    "avg_confidence": 0.9602876865149387
+  }
+}

@@ -1,0 +1,10 @@
+numpy>=1.22
+pandas>=1.5
+matplotlib>=3.7
+scikit-learn>=1.2
+torch>=2.1
+openpyxl>=3.1
+seaborn>=0.12
+scipy>=1.8
+plotly>=5.0
+streamlit>=1.28
