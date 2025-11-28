@@ -143,43 +143,5 @@ You can open these files locally or parse them with pandas to create custom summ
 
 ---
 
-## How to push this project to GitHub (PowerShell commands)
-
-If you haven't already created a remote GitHub repository, create one on github.com and copy the repository HTTPS URL. Then run the following commands from the project root in PowerShell (replace <REMOTE_URL> with your repository URL):
-
-```powershell
-# initialize git if needed
-git init
-# stage all files
-git add .
-# create an initial commit
-git commit -m "chore: initial project files and results"
-# create main branch (optional)
-git branch -M main
-# add remote (replace <REMOTE_URL>)
-git remote add origin <REMOTE_URL>
-# push to GitHub (first push)
-git push -u origin main
-```
-
-If your repo already has commits, skip `git init` and use the normal `git add`/`commit`/`push` flow. If you use SSH remotes replace `<REMOTE_URL>` with the `git@github.com:owner/repo.git` format.
-
-If you want me to create a prepared commit message and list exactly which files will be changed, I can prepare the commit command for you — but I cannot push to your remote without your credentials or a configured remote on your machine.
-
----
-
-## Notes & next steps
-
-- To include the `/outputs` images on GitHub, ensure `outputs/` is committed (or include a `README_outputs.md` if you prefer not to commit large binaries).
-- Consider adding a short `RESULTS.md` (or `docs/`) if you want a printable report summarizing the numeric outputs.
-
----
-
-## License
-
-Add a license file if you plan to share this project publicly (MIT or similar is common for research code).
-
-
-
 
 
